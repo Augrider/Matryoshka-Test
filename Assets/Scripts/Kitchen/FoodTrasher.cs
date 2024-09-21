@@ -25,8 +25,6 @@ namespace CookingPrototype.Kitchen
         [UsedImplicitly]
         public void TryTrashFood()
         {
-            //If overcooked food is present - remove it entirely
-            //Else - do nothing
             if (!_place.IsFree && _place.CurFood.CurStatus == Food.FoodStatus.Overcooked)
                 _place.FreePlace();
         }

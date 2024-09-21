@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &1168166526930048
+--- !u!1 &2367066382179401306
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,50 +8,50 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 224386421154781322}
-  - component: {fileID: 222406941786872306}
-  - component: {fileID: 114154522559135996}
+  - component: {fileID: 3610419814438803379}
+  - component: {fileID: 3247094205711463852}
+  - component: {fileID: 1088250606013818358}
   m_Layer: 0
-  m_Name: BurgerBun
+  m_Name: HotDogBunTop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &224386421154781322
+--- !u!224 &3610419814438803379
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1168166526930048}
+  m_GameObject: {fileID: 2367066382179401306}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 224206252669100008}
-  m_RootOrder: 0
+  m_Father: {fileID: 4442162624420000496}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 270}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!222 &222406941786872306
+--- !u!222 &3247094205711463852
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1168166526930048}
+  m_GameObject: {fileID: 2367066382179401306}
   m_CullTransparentMesh: 1
---- !u!114 &114154522559135996
+--- !u!114 &1088250606013818358
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1168166526930048}
+  m_GameObject: {fileID: 2367066382179401306}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
@@ -65,7 +65,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: fd6f1c64734f33b45a664a987bcf5314, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 83b978faa0f9b974a8471e01023f1ee0, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -75,7 +75,7 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!1 &1192193982127608
+--- !u!1 &4520784385756082400
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -83,28 +83,28 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 224206252669100008}
+  - component: {fileID: 4442162624420000496}
   m_Layer: 0
-  m_Name: Burger
+  m_Name: HotDog
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &224206252669100008
+--- !u!224 &4442162624420000496
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1192193982127608}
+  m_GameObject: {fileID: 4520784385756082400}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 224386421154781322}
-  - {fileID: 224947127377691096}
-  - {fileID: 224973942266396948}
+  - {fileID: 4441709749067281810}
+  - {fileID: 4442269974278892736}
+  - {fileID: 3610419814438803379}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -113,7 +113,7 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!1 &1246844128085238
+--- !u!1 &4520795207128654232
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -121,50 +121,50 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 224947127377691096}
-  - component: {fileID: 222631121236813708}
-  - component: {fileID: 114540694364571792}
+  - component: {fileID: 4441709749067281810}
+  - component: {fileID: 4444794268625204458}
+  - component: {fileID: 4552224257386819044}
   m_Layer: 0
-  m_Name: BurgerCutlet
+  m_Name: HotDogBun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &224947127377691096
+--- !u!224 &4441709749067281810
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1246844128085238}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_GameObject: {fileID: 4520795207128654232}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 224206252669100008}
-  m_RootOrder: 1
+  m_Father: {fileID: 4442162624420000496}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 270}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!222 &222631121236813708
+--- !u!222 &4444794268625204458
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1246844128085238}
+  m_GameObject: {fileID: 4520795207128654232}
   m_CullTransparentMesh: 1
---- !u!114 &114540694364571792
+--- !u!114 &4552224257386819044
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1246844128085238}
+  m_GameObject: {fileID: 4520795207128654232}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
@@ -178,7 +178,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 11bbb6044fc0bbb459721925f908833f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 27572524a601b384e9fffaee095d0f20, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -188,7 +188,7 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!1 &1331069354737392
+--- !u!1 &4520871608915143150
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -196,50 +196,50 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 224973942266396948}
-  - component: {fileID: 222226369175744116}
-  - component: {fileID: 114250644589713986}
+  - component: {fileID: 4442269974278892736}
+  - component: {fileID: 4444983469844794004}
+  - component: {fileID: 4553103070488962440}
   m_Layer: 0
-  m_Name: BurgerBunTop
+  m_Name: HotDogSausage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &224973942266396948
+--- !u!224 &4442269974278892736
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1331069354737392}
+  m_GameObject: {fileID: 4520871608915143150}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 224206252669100008}
-  m_RootOrder: 2
+  m_Father: {fileID: 4442162624420000496}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -15}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 270}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!222 &222226369175744116
+--- !u!222 &4444983469844794004
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1331069354737392}
+  m_GameObject: {fileID: 4520871608915143150}
   m_CullTransparentMesh: 1
---- !u!114 &114250644589713986
+--- !u!114 &4553103070488962440
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1331069354737392}
+  m_GameObject: {fileID: 4520871608915143150}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
@@ -253,7 +253,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: f660fef4a61f32d4fbe95528fff2ae10, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fd68e4b6cc3a28d428b6d2913e1255cd, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
